@@ -1,0 +1,32 @@
+form {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+
+}
+.namefield {
+    padding: 0;
+    border: none;
+}
+.namefield input {
+    width: 49%;
+}
+
+input {
+    width: 98%;
+    min-height: 25px;
+}
+
+.subscribe input {
+    width: 10%;
+    min-height: auto;
+}
+
+.info {
+    font-size: 13px
+}
+
+footer {
+    margin-top: 25px;
+    font-size: 11px
+}

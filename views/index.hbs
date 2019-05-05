@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="/stylesheets/index.css"/>
+    </head>
+    <body>
+        <form action="/signup" method="POST">
+            <div class="container">
+                <h3>Sign  up</h3>
+                <fieldset class="namefield">
+                    <input type="text" placeholder="First name" name="firstname" required/>
+                    <input type="text" placeholder="Last name" name="lastname" required/>
+                </fieldset>
+                <input type="email" placeholder="E-mail" name="email" required/>
+                <label>
+                <input type="password" placeholder="Password" name="password" minlength="8" required/>
+                <span class="info">At least 8 charaters</span>
+                </label><br />
+                <label>
+                <input type="text" placeholder="Phone number" name="phone number"/>
+                <span class="info">Optional</span>
+                </label><br />
+                <label class="subscribe"><input type="checkbox" name="subscribe" /> Subscribe to our newsletter </label>
+                <input type="submit" value="Submit" />
+            </div>
+            <footer class="disclaimer">By signing up you agree to our terms and conditions</footer>
+        </form>
+    </body>
+</html>
